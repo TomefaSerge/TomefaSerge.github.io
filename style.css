@@ -1,0 +1,32 @@
+body
+{
+    /*Initialisation*/
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    /*Apparence*/
+    background-color: black;
+    color: white;
+}
+*, ::before, ::after
+{
+    /*ajustements des Proportions*/
+    box-sizing: border-box;
+}
+.loaderContainer
+{
+    /*Proportions*/
+    width: 100vw;
+    height: 100vh;
+    /*Positionnement*/
+    z-index: 9999;
+    position: absolute;
+    left: 0vw;
+    height: 0vh;
+    /*transform: translate(-50%,-50%);*/
+    /*Apparence*/
+    background: linear-gradient(180deg,red,green,blue);
+    color: limegreen;
+    /*Animations*/
+
+}
